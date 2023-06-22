@@ -1,0 +1,26 @@
+### CONFIG INFO ###
+
+# samples: samples.tsv
+    # modify samples.tsv for your sample names and associated sequencing files, 
+    # put the fastq files in data/seq/
+
+### ESSENTIAL CONFIGURATION ###
+
+samples:
+    samples.tsv
+
+ref:
+  fasta: 
+    data/ref/insectMitochondrialGenomes.fasta
+    
+NPexec: 
+  /HDDmirror/programs/NOVOPlasty/NOVOPlasty4.3.1.pl
+
+### ADVANCED CONFIGURATION ###
+
+# 2 = Vertibrate, 4 = Fungi, 5 = Invertibrate
+genCode:
+    5
+mitosCPU:
+    4
+

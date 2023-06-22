@@ -1,0 +1,12 @@
+snakemake
+bwa
+samtools
+seqkit
+seqtk
+megahit
+minimap2
+R (BioStrings, bold, readr, parallel)
+
+
+
+mamba create -c conda-forge -c bioconda --prefix= /HDDmirror/programs/condaEnvs/mitoMiner snakemake mitos bwa samtools seqkit seqtk megahit minimap2 mamba r-bold r-readr r-parallel bioconductor-biostrings novoplasty

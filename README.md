@@ -6,4 +6,4 @@ mamba create -n MitoMiner -c conda-forge -c bioconda snakemake mitos bwa samtool
 
 ## MITOS database 
 
-download here[https://zenodo.org/record/2683856]
+[download here](https://zenodo.org/record/2683856)

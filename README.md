@@ -6,7 +6,7 @@ mamba create -n MitoMiner -c conda-forge -c bioconda snakemake mitos bwa samtool
 
 ## MITOS database 
 
-[download here](https://zenodo.org/record/2683856)
+[download here](https://zenodo.org/record/2683856) and extract into root
 
 ## Reference mitochondrial genomes
 Download target mitochondrial genomes from NCBI GenBank and extract to data/ref/

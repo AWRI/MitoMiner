@@ -1,8 +1,8 @@
-# MitoMiner
-Mitochondrail genome assembly, annotation and taxonomic classification from short read metagenomic datasets
+# MitoMonitor
+Mitochondrial genome assembly, annotation and taxonomic classification from short read metagenomic datasets
 
 ## Installation
-mamba create -n MitoMiner -c conda-forge -c bioconda snakemake mitos bwa samtools seqkit seqtk megahit minimap2 mamba r-bold r-readr r-parallel bioconductor-biostrings novoplasty
+mamba create -n MitoMonitor -c conda-forge -c bioconda snakemake mitos bwa samtools seqkit seqtk megahit minimap2 mamba r-bold r-readr r-parallel bioconductor-biostrings novoplasty
 
 ## MITOS database 
 
